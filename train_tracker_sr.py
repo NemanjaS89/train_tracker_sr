@@ -2,7 +2,6 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import xlrd
 import xlsxwriter
-import time
 
 #napravi novi fajl i spremi ga za pisanje
 workbook = xlsxwriter.Workbook('trains_sr_generated.xlsx')
